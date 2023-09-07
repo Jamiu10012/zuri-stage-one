@@ -1,6 +1,6 @@
 .zuri-task-cont {
   width: 30%;
-  border: 1px solid #000;
+  border: 1px solid rgb(78, 78, 227);
   margin: 100px auto;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@ img {
   font-size: 20px;
 }
 .top-div {
-  background: rgb(52, 52, 227);
+  background: rgb(78, 78, 227);
   margin-bottom: 20px;
   width: 100%;
   height: 120px;
@@ -31,11 +31,14 @@ img {
 }
 a {
   text-decoration: none;
+  color: #fff;
+}
+a:visited {
+  color: #fff;
 }
 .git-acc {
-  background: rgb(52, 52, 227);
+  background: rgb(98, 98, 253);
   height: 35px;
-  color: #fff;
   padding: 0 20px;
   display: flex;
   align-items: center;
