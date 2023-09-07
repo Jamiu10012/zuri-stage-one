@@ -9,10 +9,11 @@ function updateDateTime() {
     "Saturday",
   ];
   const currentDate = new Date();
+  const textDay = "Today is: ";
 
   // Update current day of the week
   document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent =
-    daysOfWeek[currentDate.getUTCDay()];
+    textDay + daysOfWeek[currentDate.getUTCDay()];
 
   // Update current UTC time
   const utcTime = currentDate.toUTCString();

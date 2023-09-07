@@ -1,5 +1,64 @@
+.zuri-task-cont {
+  width: 30%;
+  border: 1px solid #000;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
 img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  position: absolute;
+  top: 15%;
+}
+.week {
+  margin: 10px 0;
+  font-size: 20px;
+}
+.top-div {
+  background: rgb(52, 52, 227);
+  margin-bottom: 20px;
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 20px;
+}
+a {
+  text-decoration: none;
+}
+.git-acc {
+  background: rgb(52, 52, 227);
+  height: 35px;
+  color: #fff;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+h2 {
+  margin-top: 0;
+}
+@media only screen and (max-width: 1200px) {
+  .zuri-task-cont {
+    width: 50%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .zuri-task-cont {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .zuri-task-cont {
+    width: 90%;
+  }
 }

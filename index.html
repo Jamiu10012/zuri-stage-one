@@ -7,14 +7,18 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1 data-testid="slackUserName">Ibrahim Jamiu</h1>
-    <img src="jam.jpeg" alt="Ibrahim Jamiu" data-testid="slackDisplayImage" />
-    <p data-testid="currentDayOfTheWeek"></p>
-    <p data-testid="currentUTCTime"></p>
-    <h2 data-testid="myTrack">Frontend</h2>
-    <a href="https://github.com/Jamiu10012" data-testid="githubURL"
-      >GitHub Repository</a
-    >
+    <div class="zuri-task-cont">
+      <div class="top-div"></div>
+      <img src="jam.jpeg" alt="Ibrahim Jamiu" data-testid="slackDisplayImage" />
+      <h1 data-testid="slackUserName">Ibrahim Jamiu</h1>
+      <h2 data-testid="myTrack">Am a Frontend developer</h2>
+      <div class="git-acc">
+      <a href="https://github.com/Jamiu10012" data-testid="githubURL"></a>
+        My GitHub Account</a
+      ></div>
+      <div data-testid="currentDayOfTheWeek" class="week"></div>
+      <div data-testid="currentUTCTime"></div>
+    </div>
 
     <!-- JavaScript to update dynamic content -->
     <script src="script.js"></script>
